@@ -1,0 +1,10 @@
+# Ignorar arquivos temporários do Python
+__pycache__/
+*.pyc
+
+# Ignorar os logs gerados em testes locais
+**/_logs/
+
+# Ignorar arquivos de configuração de editores (VS Code, PyCharm, etc)
+.vscode/
+.idea/
