@@ -89,6 +89,6 @@ def show_summary(stats: dict, start_time: float, logger: logging.Logger) -> None
         "========================================="
     ]
     summary = "\n".join(lines)
-    log_event(logger, "info", f"\n{summary}")
+
     print(summary)
     

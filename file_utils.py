@@ -4,14 +4,14 @@ from datetime import datetime
 # Retorna o dicionário com todas as categorias e suas extensões
 def get_extensions_map() -> dict:
     return {
-        "Images":      [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff"],
-        "Documents":   [".pdf", ".doc", ".docx", ".txt", ".xls", ".xlsx"],
-        "Audio":       [".mp3", ".wav", ".aac", ".flac"],
-        "Video":       [".mp4", ".avi", ".mkv", ".mov"],
-        "Archives":    [".zip", ".rar", ".7z", ".tar", ".gz"],
-        "Executables": [".exe", ".msi", ".bat", ".sh"],
-        "Code":        [".py", ".js", ".html", ".css", ".java", ".cpp"],
-        "Others":      []
+        "Imagens":      [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff"],
+        "Documentos":   [".pdf", ".doc", ".docx", ".txt", ".xls", ".xlsx"],
+        "Audios":       [".mp3", ".wav", ".aac", ".flac"],
+        "Videos":       [".mp4", ".avi", ".mkv", ".mov"],
+        "Arquivos":    [".zip", ".rar", ".7z", ".tar", ".gz"],
+        "Executáveis": [".exe", ".msi", ".bat", ".sh"],
+        "Códigos":        [".py", ".js", ".html", ".css", ".java", ".cpp"],
+        "Outros":      []
     }
 
 # Recebe uma extensão (ex: ".pdf") e retorna o nome da pasta destino (ex: "Documents")
